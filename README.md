@@ -1,5 +1,14 @@
 # servidor-minecraft-ubuntu-server
+- Voy a seguir el paso a paso de la instalación de un servidor con spigot 1.21
 
-- sudo su
+## Comandos
+````bash
+#entrar en modo root (administrador)
+ sudo su
 
-- apt-get 
+#actualizar sistema operativo
+ apt-get update
+ apt-get upgrade
+
+#
+````

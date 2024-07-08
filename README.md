@@ -100,7 +100,7 @@ java -Xms1024M -Xmx1024M -jar spigot-1.21.jar nogui
 ## Uso de screen
 ````bash
 #creación de una terminal nueva
- screen -s nombre
+ screen -S nombre
 
 #dentro de esta terminal
  ./ini.sh

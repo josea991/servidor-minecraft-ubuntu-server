@@ -97,6 +97,23 @@ java -Xms1024M -Xmx1024M -jar spigot-1.21.jar nogui
  stop
 ````
 
+## Uso de screen
+````bash
+#creación de una terminal nueva
+ screen -s nombre
+
+#dentro de esta terminal
+ ./ini.sh
+  #esperemos a que se inicie el servidor
+
+#para salir pulsaremos las teclas ctrl+a+d
+
+#de vuelta en la terminal principal del servidor, listaremos las screen q hay en funcionamiento
+ screen -list
+
+#acceder a la screen anteriormente creada
+ screen -r numero
+````
 
 
 
